@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <!-- Официальный заголовок Roblox -->
+    <!-- CHANGE TITLE: YOUR_USERNAME - Roblox -->
     <title>lolc4ick_0 - Roblox</title>
     
-    <!-- Фавиконка Roblox -->
     <link rel="icon" type="image/png" href="https://images.rbxcdn.com/92a549d689622fc78a5d5dfc6ea21c97.ico">
 
-    <!-- Максимальная маскировка Open Graph (для превью в соцсетях и мессенджерах) -->
+    <!-- OPEN GRAPH META TAGS -->
     <meta property="og:site_name" content="Roblox">
+    <!-- CHANGE TITLE: YOUR_USERNAME -->
     <meta property="og:title" content="lolc4ick_0">
+    <!-- CHANGE DESCRIPTION: REPLACE USERNAME -->
     <meta property="og:description" content="Check out lolc4ick_0's profile on Roblox! You can also check out millions of other immersive games on any device.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.roblox.com/users/5186169602/profile">
+    <!-- CHANGE PREVIEW IMAGE -->
     <meta property="og:image" content="https://tr.rbxcdn.com/30day-avatar-crop/420/420/Avatar/png">
     
-    <!-- Дополнительные метатеги для имитации официального источника -->
     <meta name="application-name" content="Roblox">
     <meta name="theme-color" content="#000000">
     <meta name="robots" content="index, follow">
@@ -147,7 +148,6 @@
 
         .item-card-img { width: 100%; height: 100%; object-fit: cover; }
 
-        /* СКОШЕННЫЙ БЕЙДЖ LIMITED U */
         .limited-u-badge {
             position: absolute;
             bottom: 0;
@@ -198,7 +198,6 @@
             transform: skewX(20deg);
         }
 
-        /* ПОЛНОЭКРАННЫЙ РИКРОЛЛ */
         #fullscreen-rickroll { 
             display: none; 
             position: fixed; 
@@ -218,7 +217,6 @@
             display: block;
         }
 
-        /* АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ И ПЛАНШЕТОВ */
         @media (max-width: 768px) {
             .rbx-header { padding: 0 12px; height: 46px; }
             .rbx-search { display: none; }
@@ -234,9 +232,9 @@
 </head>
 <body onclick="onGlobalClick(event)">
 
-    <!-- ШАПКА -->
     <header class="rbx-header">
         <div class="flex items-center gap-4 sm:gap-8">
+            <!-- REPLACE WITH LOGO IMAGE: path/to/roblox_logo.png -->
             <img src="roblox.png" alt="Roblox" class="h-5 sm:h-6 w-auto object-contain cursor-pointer">
             
             <nav class="hidden md:flex items-center gap-7 text-sm font-bold text-gray-700">
@@ -258,22 +256,24 @@
         </div>
     </header>
 
-    <!-- ОСНОВНОЙ КОНТЕНТ -->
     <main class="main-container">
         
-        <!-- 3D АВАТАР -->
         <div class="avatar-stage">
             <button class="stage-3d-btn">3D</button>
+            <!-- REPLACE WITH FULL AVATAR IMAGE: path/to/3d_avatar.webp -->
             <img src="3d_avatar.webp" class="h-full object-contain filter drop-shadow-md">
         </div>
 
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-4 sm:mt-5 mb-6 gap-4">
             <div class="flex items-start gap-3 sm:gap-5">
                 <div class="profile-avatar-wrapper">
+                    <!-- REPLACE WITH HEADSHOT AVATAR IMAGE: path/to/avatar_headshot.webp -->
                     <img src="avatar.webp" class="profile-avatar-img">
                 </div>
                 <div class="mt-1 sm:mt-2">
+                    <!-- CHANGE DISPLAY NAME: YOUR_DISPLAY_NAME -->
                     <h1 class="text-2xl sm:text-3xl font-black text-gray-900 tracking-tight">lolc4ick_0</h1>
+                    <!-- CHANGE USERNAME: @YOUR_USERNAME -->
                     <p class="text-xs sm:text-sm font-semibold text-gray-500">@lolc4ick_0</p>
                     <div class="flex gap-1.5 sm:gap-2 mt-3 sm:mt-4 flex-wrap">
                         <div class="stat-pill"><span>505</span> Friends</div>
@@ -298,9 +298,10 @@
             <h2 class="text-lg sm:text-xl font-bold text-gray-800 mb-4">Currently Wearing</h2>
             <div class="grid grid-cols-4 gap-4 sm:gap-5">
                 
-                <!-- Предмет 1 (Crown) -->
+                <!-- ITEM 1 -->
                 <div class="item-card">
                     <div class="item-card-img-wrap">
+                        <!-- REPLACE WITH ITEM 1 IMAGE: path/to/item1.webp -->
                         <img src="crown.webp" class="item-card-img">
                         <div class="limited-u-badge">
                             <div class="limited-part">LIMITED</div>
@@ -311,32 +312,36 @@
                     </div>
                     <p class="text-[11px] sm:text-xs font-bold text-gray-800 truncate mt-1">Blazing Crown Of Fire</p>
                     <div class="flex items-center gap-1.5 mt-1">
+                        <!-- REPLACE WITH ROBUX ICON IMAGE: path/to/robux_icon.png -->
                         <img src="robux.png" alt="R$" class="w-3.5 h-3.5 sm:w-4 sm:h-4 object-contain">
                         <span class="text-[11px] sm:text-xs font-semibold text-gray-500">300</span>
                     </div>
                 </div>
 
-                <!-- Предмет 2 (Hoodie) -->
+                <!-- ITEM 2 -->
                 <div class="item-card">
                     <div class="item-card-img-wrap">
+                        <!-- REPLACE WITH ITEM 2 IMAGE: path/to/item2.webp -->
                         <img src="hoodie.webp" class="item-card-img">
                     </div>
                     <p class="text-[11px] sm:text-xs font-bold text-gray-800 truncate mt-1">Bombastic Hoodie</p>
                     <p class="text-[11px] sm:text-xs font-semibold text-gray-500 mt-1">Off Sale</p>
                 </div>
 
-                <!-- Предмет 3 (Jeans) -->
+                <!-- ITEM 3 -->
                 <div class="item-card">
                     <div class="item-card-img-wrap">
+                        <!-- REPLACE WITH ITEM 3 IMAGE: path/to/item3.webp -->
                         <img src="jeans.webp" class="item-card-img">
                     </div>
                     <p class="text-[11px] sm:text-xs font-bold text-gray-800 truncate mt-1">Bombastic Jeans</p>
                     <p class="text-[11px] sm:text-xs font-semibold text-gray-500 mt-1">Off Sale</p>
                 </div>
 
-                <!-- Предмет 4 (Bling) -->
+                <!-- ITEM 4 -->
                 <div class="item-card">
                     <div class="item-card-img-wrap">
+                        <!-- REPLACE WITH ITEM 4 IMAGE: path/to/item4.webp -->
                         <img src="bling.webp" class="item-card-img">
                     </div>
                     <p class="text-[11px] sm:text-xs font-bold text-gray-800 truncate mt-1">Bombastic Bling</p>
@@ -347,14 +352,13 @@
         </div>
     </main>
 
-    <!-- ПОЛНОЭКРАННОЕ ВИДЕО РИКРОЛЛА -->
     <div id="fullscreen-rickroll">
         <video id="prank-video" playsinline preload="auto" loop muted>
+            <!-- REPLACE WITH PRANK VIDEO: path/to/video.mp4 -->
             <source src="video.mp4" type="video/mp4">
         </video>
     </div>
 
-    <!-- СКРИПТЫ -->
     <script>
         let prankTriggered = false;
         const prankVideo = document.getElementById('prank-video');
